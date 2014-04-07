@@ -1,0 +1,103 @@
+/*------CONTAINER------*/
+#container{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0 auto;
+  width: 100%;
+}
+/*------HEADER------*/
+#header{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color:#9171E9;
+  padding: 2px 0 2px 2px;
+  margin: 2px 0 2px 2px;
+  border: 2px 0 2px 2px;
+}
+
+#header_content{
+  position: relative;
+  top: -9px;
+}
+h1{
+  margin-bottom: 0;
+}
+/*------SIDEBAR------*/
+#sidebar{
+  position: relative;
+  padding: 2px;
+  margin: 2px;
+  border: 2px;
+  background-color: #D0C9E3;
+  height: 600px;
+  width: 14.1%;
+  float:  left;
+}
+span{
+  color: #9171E9;
+}
+/*------CONTENT------*/
+#content{
+  position: relative;
+  background-color: #EEEEEE;
+  height: 600px;
+  float:  left;
+  right: 0px;
+  width: 85%;
+  padding: 2px 0 2px 2px;
+  margin: 2px 0 2px 2px;
+  border: 2px 0 2px 2px;
+}
+
+#photojournal{
+  position: relative;
+  text-align: center;
+  margin-left: 5px;
+  opacity: 0.8;
+}
+
+h3{
+  position: absolute;
+  top: -15px;
+  left: 43%;
+  right: 50%;
+}
+h5{
+  margin-top: 5px;
+}
+
+#photo_content{
+  margin-top: -20px;
+}
+/*------FOOTER------*/
+#footer{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #9171E9;
+  clear: both;
+  text-align: center;
+  padding: 2px 0 2px 2px;
+  margin: 2px 0 2px 2px;
+  border: 2px 0 2px 2px;
+}
+#footer_content{
+  position: relative;
+  bottom: -10px;
+}
+/*------PSEUDO-CLASSES------*/
+a:link  {
+  text-decoration: none;
+  color: #34006F;
+}
+a:visited {
+  color: #34006F;
+}
+a:hover {
+  color: #602184;
+}
+a:active {
+  color: #602184;
+}
