@@ -14,6 +14,7 @@ body{
 #header{
   position: relative;
   text-align: center;
+  margin-bottom: -20px;
   color: #373737;
   background-color:#9171E9;
 }
@@ -21,7 +22,7 @@ body{
 /*------CONTENT------*/
 #content{
   position: relative;
-  width: 750px;
+  width: 760px;
   padding: 20px;
 }
 
@@ -29,6 +30,7 @@ body{
   background-color: #D7D4D4;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-right: 5px;
 }
 .question{
   color: #000000;

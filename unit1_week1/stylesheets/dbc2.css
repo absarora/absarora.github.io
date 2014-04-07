@@ -14,7 +14,7 @@ body{
 #header{
   position: relative;
   text-align: center;
-  width: 100%;
+  width: 95.5%;
   background-color:#9171E9;
   padding: 2px 0 2px 2px;
   margin: 2px 0 2px 2px;
@@ -31,28 +31,29 @@ h1{
 /*------SIDEBAR------*/
 #sidebar{
   position: relative;
-  padding: 2px;
-  margin: 2px;
-  border: 2px;
+  padding: 2px 2px 2px 5px;
+  margin: 2px 2px 2px 2px;
+  border: 2px 2px 2px 2px;
   background-color: #D0C9E3;
   height: 600px;
-  width: 14.1%;
+  width: 15%;
   float:  left;
 }
 span{
   color: #9171E9;
 }
 /*------CONTENT------*/
+
 #content{
   position: relative;
   background-color: #EEEEEE;
   height: 600px;
   float:  left;
   right: 0px;
-  width: 85%;
-  padding: 2px 0 2px 2px;
-  margin: 2px 0 2px 2px;
-  border: 2px 0 2px 2px;
+  width: 80%;
+  padding: 2px 2px 2px 2px;
+  margin: 2px 2px 2px 2px;
+  border: 2px 2px 2px 2px;
 }
 
 #photojournal{
@@ -78,14 +79,14 @@ h5{
 /*------FOOTER------*/
 #footer{
   position: relative;
-  width: 100%;
+  width: 95.5%;
   height: 40px;
   background-color: #9171E9;
   clear: both;
   text-align: center;
-  padding: 2px 0 2px 2px;
-  margin: 2px 0 2px 2px;
-  border: 2px 0 2px 2px;
+  padding: 2px 2px 2px 2px;
+  margin: 2px 2px 2px 2px;
+  border: 2px 2px 2px 2px;
 }
 #footer_content{
   position: relative;
