@@ -1,0 +1,28 @@
+body{
+  background-color: #B9DBF9;
+  font-family: Times;
+}
+h1{
+  text-align: center;
+}
+
+div{
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* Images */
+
+ul li img{
+  height: 20px;
+  width: 20px;
+}
+
+#selfie{
+  border-radius: 4px;
+  display: block;
+}
+
+.head{
+  color: #044A52;
+}

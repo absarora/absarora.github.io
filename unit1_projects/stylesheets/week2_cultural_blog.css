@@ -1,0 +1,38 @@
+body{
+  background-image:
+    URL('http://s3-eu-west-1.amazonaws.com/astfbackup/currentimages/shop/images/Style_Guide/colours/large/FLGV-2-1.jpg');
+}
+/*------CONTAINER------*/
+#container{
+  position: relative;
+  top: -5px;
+  background-color: #FFFFFF;
+  margin: 20px auto 0px auto;
+  width: 800px;
+}
+/*------HEADER------*/
+#header{
+  position: relative;
+  text-align: center;
+  margin-bottom: -20px;
+  color: #373737;
+  background-color:#9171E9;
+}
+
+/*------CONTENT------*/
+#content{
+  position: relative;
+  width: 760px;
+  padding: 20px;
+}
+
+.websites{
+  background-color: #D7D4D4;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+.question{
+  color: #000000;
+  font-weight: bold;
+}
