@@ -15,7 +15,7 @@ body{
   position: relative;
   text-align: center;
   width: 95.5%;
-  background-color:#9171E9;
+  background-color:#295A7D;
   padding: 2px 0 2px 2px;
   margin: 2px 0 2px 2px;
   border: 2px 0 2px 2px;
@@ -40,7 +40,7 @@ h1{
   float:  left;
 }
 span{
-  color: #9171E9;
+  color: ##295A7D;
 }
 /*------CONTENT------*/
 
@@ -81,7 +81,7 @@ h5{
   position: relative;
   width: 95.5%;
   height: 40px;
-  background-color: #9171E9;
+  background-color: ##295A7D;
   clear: both;
   text-align: center;
   padding: 2px 2px 2px 2px;

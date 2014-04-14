@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel ="stylesheet" href ="stylesheets/week2_technical.css" type ="text/css">
+    <meta charset="utf-8">
+    <title>Week 2: Technical Blog</title>
+  </head>
+  
+  <body>
+    <div id="container">
+      
+      <div id="header">
+        <h1>Technical Blog</h1> 
+      </div>
+        
+      
+      <div id="content">
+        <h2>Classes Vs. ID's</h2>
+        
+        <div class="websites">
+          <h3>Intro</h3>
+        </div>
+        <p>
+          Within HTML (Hypertext Markup Language), we need ways to structure the elements. The base template for HTML that we use is as follows: </br></br>
+
+          &lt;!DOCTYPE html&gt; <span class="comment"># set the document type</span> </br>
+          &lt;<b>html</b>&gt;</br>
+            &nbsp;&nbsp;&lt;head&gt;</br>
+            &nbsp;&nbsp;&lt;/head&gt;</br>
+            
+            &nbsp;&nbsp;&lt;body&gt;</br>
+            &nbsp;&nbsp;&lt;/body&gt;</br>
+          &lt;<b>/html</b>&gt;</br></br>
+
+          Within the base template, we use more specific elements to style our page. For example: </br></br>
+
+          &lt;h1&gt;&lt;/h1&gt; <span class="comment"># heading tag</span></br></br>
+          &lt;p&gt;&lt;/p&gt; <span class="comment"># paragraph tag</span></br></br>
+          &lt;ol&gt;&lt;/ol&gt; <span class="comment"># ordered list</span></br></br>
+
+          Styling can be done either within the HTML document using the <b>&lt;style&gt;&lt;/style&gt;</b> tags or by using a reference link to a CSS file. CSS (a.k.a Cascading stylesheets) let us style the HTML elements.
+
+          Since, it is likely that we will be using the tags listed above several times repeatedly within our HTML, we may want to style that same element differently. This is where ID’s and Classes comes in.
+        </p>
+        
+        <div class="websites">
+          <h3>ID's</h3>
+        </div>
+        <p>
+          <span class="first-word">ID's</span> are unique. Each element can link with only one unique ID. For example:
+          </br></br>
+          &lt;header&gt;</br>
+            &nbsp;&nbsp;&lt;h1 id="name"&gt;Ajaybir Singh&lt;/h1&gt;</br>
+          &lt;/header&gt;</br></br>
+
+          &lt;body&gt;</br>
+            &nbsp;&nbsp;&lt;h1 id="title">Devbootcamp’s Experience&lt;/h1&gt;</br>
+          &lt;/body&gt;</br></br>
+
+          There are two <b>&lt;h1&gt;</b> tags in the example above with a unique ID of their own. The primary purpose of an ID is to be able to style that specific element in a unique way.
+        </p>
+        
+        <div class="websites">
+          <h3>Classes</h3>
+        </div>
+        <p>
+          <span class="first-word">Classes</span> are not Unique. We can use the same class on various different elements. For example:</br></br>
+
+          &lt;section&gt;</br> 
+            &nbsp;&nbsp;&lt;article class="grid"&gt;&lt;/article&gt;</br>
+            &nbsp;&nbsp;&lt;article class="grid"&gt;&lt;/article&gt;</br>
+            &nbsp;&nbsp;&lt;article class="grid"&gt;&lt;/article&gt;</br>
+            &nbsp;&nbsp;&lt;article class="grid"&gt;&lt;/article&gt;</br>
+          &lt;/section&gt;</br></br>
+
+          In the example above, we have four <b>&lt;article&gt;</b> tags with the same class name. The purpose of using classes is to add the same style to the elements that pertain to that class.
+        </p>
+
+    </div>
+  </body>
+</html>

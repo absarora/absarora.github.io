@@ -15,7 +15,7 @@ body{
   position: relative;
   text-align: center;
   color: #373737;
-  background-color:#9171E9;
+  background-color:#295A7D;
 }
 
 /*------CONTENT------*/
@@ -28,7 +28,7 @@ body{
 .websites{
   background-color: #D7D4D4;
   padding-left: 5px;
-  color: #9171E9;
+  color: #295A7D;
 }
 span{
   font-weight: bold;

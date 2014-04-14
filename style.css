@@ -1,0 +1,94 @@
+body{
+  background-image:
+    URL('http://s3-eu-west-1.amazonaws.com/astfbackup/currentimages/shop/images/Style_Guide/colours/large/FLGV-2-1.jpg');
+    max-width: 1440px;
+    min-width: 600px;
+}
+/*------CONTAINER------*/
+.content{
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  height: 310px;
+  margin: 2% auto;
+  font-family: 'sniglet';
+}
+
+article a{
+  position: relative;
+  top: 0.313em;
+  vertical-align: middle;
+}
+
+.heading{
+  margin: 3% 60% -2% 0;
+  text-align: center;
+  text-shadow: 0.125em 0.125em #000000;
+  font-size: 1.375em;
+  position: relative;
+  font-family: 'Tienne';
+  color: #295A7D;
+}
+
+.link{
+  vertical-align: middle;
+  box-shadow: 0.3125em 0.3125em 0.125em;
+  opacity: 0.4;
+  position: relative;
+  display: inline-block;
+  border: 0.125em solid;
+  border-radius: 0.625em;
+  background-color: #9ED6FE;
+  padding: 1.50%;
+  margin: 0.65%;
+  font-size: 1.50em;
+  width: 30%;
+  height: 14%;
+  text-align: center;
+}
+/*------HEADER------*/
+header{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Tienne';
+}
+header p{
+  border-top: 0.125em groove;
+  border-bottom: 0.125em groove;
+  font-size: 1.375em;
+  color: #3D89C0;
+}
+header h1{
+  text-shadow: 0.125em 0.100em #000000;
+  color: #295A7D;
+  margin: 1.5%;
+  font-size: 3em;
+  font-weight: bold;
+}
+/*------FOOTER------*/
+footer{
+  width: 100%;
+  background-color: #295A7D;
+  text-align: center;
+}
+#footer{
+  padding: 1.2%;
+}
+
+/*------PSEUDO-CLASSES------*/
+a:link  {
+  text-decoration: none;
+  color: #9171E9;
+}
+a:visited {
+  color: #34006F;
+}
+a:hover {
+  color: #0F83D7;
+}
+a:active {
+  color: #0F83D7;
+}
