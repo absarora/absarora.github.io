@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel ="stylesheet" href ="stylesheets/week4_technical.css" type ="text/css">
+    <meta charset="utf-8">
+    <title>Week 4: Technical Blog</title>
+  </head>
+  
+  <body>
+    <div id="container">
+      
+      <div id="header">
+        <h1>Technical Blog</h1> 
+      </div>
+        
+      
+      <div id="content">
+        <h2>Enumerable #map</h2>
+        <p>
+          Map, often confused with "Each", is a Ruby method used to iterate over an array where Map will return a new array put together by the results of the block while Each will return the original array. </br></br>
+        </p>
+        <p>For example:</p>
+        <p><span>Each</span></p>
+        <p class="websites">irb(main):> [1, 2, 3].each { | i | i + 2 } </br>
+           => [1, 2, 3]</p>
+
+        <p><span>Map</span></p>
+        <p class="websites">irb(main):> [1, 2, 3].map { | i | i + 2 } </br>
+           => [3, 4, 5]</p>
+
+        <p>There is another Ruby method, called "Collect" which is identical to "Map"; Collect, also, outputs a new array from the block results.</p>
+        <p><span>Collect</span></p>
+        <p class="websites">irb(main):> [1, 2, 3].collect { | i | i + 2 } </br>
+           => [3, 4, 5]</p>
+      </div>
+    </div>
+  </body>
+</html>
