@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel ="stylesheet" href ="stylesheets/week5_technical.css" type ="text/css">
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+    <title>Week 5: Technical Blog</title>
+  </head>
+  
+  <body>
+    <div id="container">
+      
+      <div id="header">
+        <h1>Technical Blog</h1> 
+      </div>
+        
+      
+      <div id="content">
+        <h2>Ruby: Classes</h2>
+        
+        <div class="websites">
+          <h3>Intro</h3>
+        </div>
+        <p>
+          Ruby is an object oriented programming language. Like most modern programming languages including C/C++, Java, C#, etc. Ruby, also, includes classes and objects.</br></br>
+          To get started, let’s define a class in Ruby and learn the types of variables we can set within a Ruby class.
+        </p>
+        
+        <div class="websites">
+          <h3>Class Definition</h3>
+        </div>
+        <p>
+          In Ruby, classes start with the keyword <em>class</em> followed by the class name and it ends with the keyword <em>end</em>.
+        </p>
+        <p class="code">
+          class <span>Die</span></br>
+          end
+        </p>
+        
+        <div class="websites">
+          <h3>Variables</h3>
+        </div>
+        <p>
+          There are four types of variables we can use within a Ruby class:
+          <ol>
+            <li><strong>Local variables: </strong>set and used within a method</li>
+            <li><strong>Instance variables: </strong>set and used within methods for a particular instance or object; preceded by <span>@ </span>sign
+              <ul><li>Ex: <span>@</span>sides</li></ul>
+            </li>
+            <li><strong>Class variables: </strong>set and used within a class; preceded by <span>@@ </span>sign
+              <ul><li>Ex: <span>@@</span>sides</li></ul>
+            </li>
+            <li><strong>Global variables: </strong>set and used outside a class; can be accessed by different classes and are preceded by a <span>$ </span>sign
+              <ul><li>Ex: <span>$</span>sides</li></ul>
+            </li>
+          </ol>
+        </p>
+        <div class="websites">
+          <h3>Instance Methods</h3>
+        </div>
+        <p>
+          Next, let’s learn about creating methods within a class in Ruby. Let us take a closer look at the problem from Devbootcamp’s phase 0, unit 2, exercise 1:
+        </p>
+        <h4>Problem</h4>
+        <p>Implement a basic Die class which can be initialized with some number of sides. We can then roll the die, returning a random number.</p>
+        <h4>Solution</h4>
+        <p><img src="images/Die.png" /></br></br>
+          In the example above, three instance methods were written to solve the given problem. Now, in order to call the instance methods, we need to call the “new” method to create an object.</br></br>
+        [New is a class method and it is used to create an instance or an object which is required to call the instance methods.]</br></br>
+        <strong>For ex:</strong>
+        </p>
+        <p class="code">
+        p <em>Die</em>.sides <span>#=> NoMethodError</span></br>
+        p <em>Die</em>.new(6).sides <span>#=> 6</span></p>
+    </div>
+  </body>
+</html>
